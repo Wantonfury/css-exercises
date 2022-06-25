@@ -15,11 +15,35 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.confirmation {
+  display: flex;
+  gap: 8px;
 }
 
 .icon {
